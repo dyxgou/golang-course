@@ -1,7 +1,7 @@
 package main
 
-import "github/course/src/types"
+import "github/course/src/arrays"
 
 func main() {
-	types.Generics()
+	arrays.Arrays()
 }
