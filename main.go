@@ -1,7 +1,7 @@
 package main
 
-import "github/course/src/arrays"
+import "github/course/src/maps"
 
 func main() {
-	arrays.Append()
+	maps.Sets()
 }
