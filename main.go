@@ -1,7 +1,7 @@
 package main
 
-import "github/course/src/maps"
+import "github/course/src/blocks"
 
 func main() {
-	maps.Sets()
+	blocks.Labeling()
 }
