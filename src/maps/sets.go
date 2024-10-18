@@ -3,7 +3,6 @@ package maps
 import (
 	"errors"
 	"fmt"
-	"log"
 )
 
 type Set[v comparable] interface {
@@ -49,7 +48,7 @@ func Sets() {
 	intSet.insertElement(15)
 	intSet.insertElement(16)
 
-	log.Fatal(intSet.insertElement(16)) // Should return an error
+	// log.Fatal(intSet.insertElement(16)) // Should return an error
 
 	intSet.insertElement(17)
 	intSet.insertElement(18)
