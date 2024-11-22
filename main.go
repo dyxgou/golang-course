@@ -1,7 +1,9 @@
 package main
 
-import "github/course/src/blocks"
+import (
+	"github/course/src/functions"
+)
 
 func main() {
-	blocks.Labeling()
+	functions.VariadicFuncs()
 }
